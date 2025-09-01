@@ -1,11 +1,15 @@
-import Counter from "./components/Counter"
+75
+import Hello from "./hello"
 
 function App() {
+  const username = 'Shankar Kumar'
   return (
-   <>
-   <h1>Code With Shankar</h1>
-   </>
+  <>
+  <Hello/>
+    <h1>This is a react page</h1>
+    <h2>Text Paragraph of {username}</h2>
+  </>
   )
 }
-
+ 
 export default App
